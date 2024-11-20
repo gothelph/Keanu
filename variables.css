@@ -1,0 +1,39 @@
+:root {
+  --bg-section: #141f35;
+  --section-padding: 88px 168px;
+  --bg-color: #1b2944;
+  --text-color: #ffffff;
+  --inline-padding: 168px;
+  /* --block-padding: 88px; */
+  --bt-color: #ffbb01;
+  --bt-shadow: 0 4px 0 var(--bt-shadow-color);
+  --bt-shadow-color: #b68500;
+  --gradient: linear-gradient(#213e60, #c4c4c400);
+  --bt-gallery-color: #ec1f46;
+  --bt-gallery-shadow-color: #ce1c3e;
+  --max-header-height: 654px;
+  --height: 100vh;
+  --border-color: #ffc41d;
+  --footer-text: #949494;
+  --line-height: 28px;
+  --image-container: 304px;
+  --radius: 6px;
+  --image-size: 224px;
+  --font-size: clamp(0.875rem, 0.8333rem + 0.2083vw, 1rem);
+  --title-font-size: clamp(1.5rem, 0.9583rem + 2.7083vw, 3.125rem);
+  --section-title: clamp(1.1875rem, 0.8333rem + 1.7708vw, 2.25rem);
+  --article-tittle: clamp(1.125rem, 1rem + 0.625vw, 1.5rem);
+  --footer-title: clamp(0.9375rem, 0.875rem + 0.3125vw, 1.125rem);
+  --display-flex: flex;
+  --display-grid: grid;
+  --grid-column: repeat(3, 1fr);
+  --container-height: 200px;
+  --header-group-padding: 16px;
+  --icon-gap: var(--header-group-padding);
+  --header-title-padding: calc(
+    var(--header-group-padding) * 2 - (var(--header-group-padding) / 2)
+  );
+  --header-text-padding: calc(
+    var(--header-title-padding) + var(--header-group-padding)
+  );
+}
